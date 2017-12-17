@@ -22,8 +22,10 @@ Attempting to implement convolution in CUDA following XNOR-net strategy.
   Do let me know if you find any logical errors in the code.
 
 ##  TO DO:
+  - [x] Add support for variable input sizes
+  - [x] Add support for 3D convolution
   - [x] Parallelize per convolution
-  - [x] Parallelize over channels / Maximize throughput
+  - [ ] Maximize shared memory usage - balance channel parallelization
   - [ ] Create a full precision verification kernel
   - [ ] Add full support for custom kernel sizes
   - [ ] Build a parser to take in shape arguments
