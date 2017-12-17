@@ -9,15 +9,18 @@ Related resources:
 [Blog post 3](https://software.intel.com/en-us/blogs/2017/10/23/art-em-artistic-style-transfer-to-virtual-reality-week-7-update)
 
 ##  Prerequisites:
-  # CUDA
-  # cuDNN
-  # (I'll add as I realize)
+  * CUDA
+  * cuDNN
+  * (I'll add as I realize)
   
   
 ##  To run:
   Navigate to the directory where xnorconv.cu is located. 
+  
   `nvcc -arch=sm_50 xnorconv.cu -std=c++11 && ./a.out`
+  
   To profile the application:
+  
   `nvprof ./a.out`
   
   
