@@ -1,6 +1,7 @@
 # XNOR-convolution
-Attempting to implement convolution in CUDA following XNOR-net strategy
-Related resources:
+Attempting to implement convolution in CUDA following XNOR-net strategy.
+
+Related/Relevant resources:
 
 [Paper on XNOR-Nets](https://arxiv.org/abs/1603.05279)
 
@@ -9,6 +10,10 @@ Related resources:
 [Blog post 2](https://software.intel.com/en-us/blogs/2017/10/02/art-em-artistic-style-transfer-to-virtual-reality-week-4-update)
 
 [Blog post 3](https://software.intel.com/en-us/blogs/2017/10/23/art-em-artistic-style-transfer-to-virtual-reality-week-7-update)
+
+[BinaryNet](https://github.com/MatthieuCourbariaux/BinaryNet)
+
+[XNOR-Net - AllenAI](https://github.com/allenai/XNOR-Net)
 
 
 ##  Prerequisites:
