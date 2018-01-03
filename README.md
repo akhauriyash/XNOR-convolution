@@ -3,9 +3,7 @@ Attempting to implement convolution in CUDA following XNOR-net strategy.
 
 ##  Prerequisites:
   * CUDA
-  * cuDNN
-  * (I'll add as I realize)
-  
+  * CUDA capable GPU
   
 ##  To run:
   Navigate to the directory where xnorconv.cu is located. 
@@ -25,6 +23,7 @@ Attempting to implement convolution in CUDA following XNOR-net strategy.
   - [x] Add support for variable input sizes
   - [x] Add support for 3D convolution
   - [x] Parallelize per convolution
+  - [ ] Add code/function for general matrix multiplication (Already created, PM for code.)
   - [ ] Maximize shared memory usage - balance channel parallelization
   - [ ] Create a full precision verification kernel
   - [ ] Add full support for custom kernel sizes
